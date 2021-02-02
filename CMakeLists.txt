@@ -22,7 +22,7 @@ target_sources(vl53l1x-st-core PRIVATE
     en.STSW-IMG007/api/platform/vl53l1_platform.c)
 
 target_include_directories(vl53l1x-st-core
-    PRIVATE en.STSW-IMG007/api/core
+    PUBLIC en.STSW-IMG007/api/core
     PUBLIC en.STSW-IMG007/api/platform)
 
 add_library(vl53l1x-base STATIC)
